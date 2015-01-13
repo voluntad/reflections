@@ -32,6 +32,11 @@ a stable build is easily accessible.
 
 How do the diagrams help you visualize the branch structure?
 
+By associating Git branches with a visual representation of branches similar to
+that of a tree I can easily conceptualize that the primary branch represents the
+master from where other branches are initiated and that a “detached head state” is
+the equivalent to a branch without a supporting trunk.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
