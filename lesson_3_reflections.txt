@@ -1,1 +1,6 @@
-When
+When would you want to use a remote repository rather than keeping all your work local?
+
+One scenario where a remote repository would be beneficial is when using multiple machines
+while working on the same repository. I would use the remote repository as the main one
+ensuring that any changes I made regardless of the machine would be immediately reflected on
+the remote repository.
