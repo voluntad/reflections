@@ -50,3 +50,11 @@ this one line.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Git’s automatic merge capabilities primary draw is that is requires no user
+intervention to complete a merge. Because of Git’s conservative approach to merge
+conflicts a user can be fairly assured that if a merge completed successfully odds
+are no conflicts in code where automatically merged. By always completing merges
+manually one can be absolutely certain that no conflicts will be introduced by
+merges but this task can take an inordinate amount of time especially as a code
+base grows.
