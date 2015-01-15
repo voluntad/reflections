@@ -40,5 +40,13 @@ the equivalent to a branch without a supporting trunk.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches together is essentially a process where Git analyzes the last
+commit in each individual branch and barring no conflicts combines them into one of
+the two branches. This branch will now contain all the previous commits from both
+branches organized by the timestamp on each commit. The way a merge is represented
+in a diagram is logical because it depicts how two separate lines combine into one
+and all the individual points (commits) that made up each line are now reachable by
+this one line.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
