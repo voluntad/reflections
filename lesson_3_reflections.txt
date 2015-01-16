@@ -11,3 +11,19 @@ automatically stay up-to-date with your remote repository?
 By having manual control over when Git pulls from a remote repository a user can
 effectively manipulate the state of a local repository by deciding whether or not
 to incorporate the latest remote commits into the local repository.
+
+Describe the differences between forks, clones, and branches. When would you use 
+one instead of another?
+
+A fork is an option that is only available on GitHub and is basically a command to
+clone another user’s repository and to place that clone in your GitHub account. The
+primary reason to use a fork is when you want to make modifications to an existing
+repository but you don’t have permission to change the original repository. A clone
+is command which makes an exact copy of a repository and can be used both on GitHub
+and on a local machine. This command should be used when you want to either
+replicate a existing local repository or a remote repository which you have
+permission to modify. A branch is the creation of a new separate “path” of
+development from which any future modifications will not affect the original “path”
+commits. A  branch is best created when experimenting with new features that may be
+unstable or not finished in order to maintain between stable and experimental
+commits.
