@@ -35,3 +35,15 @@ In circumstances where a valid internet connection is not assured it is
 advantageous to have the last state of a remote repository stored locally where it
 can be accessed at all times. This remote repository enables a user to see if the
 local and remote repositories are out of sync or if one is "ahead" of the other.
+
+How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
+
+I would use a mix of email, instant messaging and file syncing software such as
+dropbox in order to collaborate with others. The advantage to this approach is that
+the learning curve is much less in comparison to Git and GitHub and the probability
+of a potential collaborator already using these tools is high. The main drawback
+would be that once a project became sufficiently complex it would become a
+nightmare to keep all files and communications in order. I would also lose the
+ability to have a centralized location where I could quickly compare differences
+between versions of files and restore to a particular version.
