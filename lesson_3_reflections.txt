@@ -47,3 +47,15 @@ would be that once a project became sufficiently complex it would become a
 nightmare to keep all files and communications in order. I would also lose the
 ability to have a centralized location where I could quickly compare differences
 between versions of files and restore to a particular version.
+
+
+When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+
+Making changes in a separate branch makes sense when collaborating with others
+because a separate branch ensures that no modifications to master will be
+implemented from two different parties which may cause conflicts. By using separate
+branches along with pull requests everyone involved can be informed of proposed
+changes to master before they are committed. The main benefit of making changes in
+the master branch is that it is a much simpler process than creating a separate
+branch.
